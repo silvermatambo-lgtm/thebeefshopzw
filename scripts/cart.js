@@ -1,5 +1,5 @@
 import {productById} from "./catalog.js";
-const STORAGE="the-bishop-cart-v1";
+const STORAGE="the-beef-shop-cart-v1";
 export function getCart(){try { const raw=JSON.parse(localStorage.getItem(STORAGE)||"{}");return Object.fromEntries(Object.entries(raw).filter(([id,n])=>productById(id)&&Number.isInteger(n)&&n>0&&n<=99));}catch{return {};}}
 export function saveCart(cart){localStorage.setItem(STORAGE,JSON.stringify(cart));window.dispatchEvent(new CustomEvent("bishop-cart-change"));}
 export function addToCart(id){if(!productById(id))return;const cart=getCart();cart[id]=Math.min(99,(cart[id]||0)+1);saveCart(cart);}

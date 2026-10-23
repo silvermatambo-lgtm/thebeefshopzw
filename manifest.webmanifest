@@ -1,18 +1,18 @@
 {
-  "name": "The Bishop — Farm to Table",
-  "short_name": "The Bishop",
-  "description": "Fresh meat and braai favourites in Harare",
+  "name": "The Beef Shop — From Our Kumusha to Your Table",
+  "short_name": "The Beef Shop",
+  "description": "Farm-to-table premium beef, braai favourites and meat boxes in Harare, Zimbabwe.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f9f5ef",
-  "theme_color": "#611a26",
+  "background_color": "#fbf8f0",
+  "theme_color": "#67212e",
   "icons": [
     {
-      "src": "/assets/the-bishop.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/assets/beef-shop-logo.webp",
+      "sizes": "240x240",
+      "type": "image/webp",
+      "purpose": "any"
     }
   ]
 }
