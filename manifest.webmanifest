@@ -1,0 +1,18 @@
+{
+  "name": "The Bishop — Farm to Table",
+  "short_name": "The Bishop",
+  "description": "Fresh meat and braai favourites in Harare",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f9f5ef",
+  "theme_color": "#611a26",
+  "icons": [
+    {
+      "src": "/assets/the-bishop.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
